@@ -1,60 +1,92 @@
-import BowserIcon from '../../images/characters/bowser_default.png';
-import DkIcon from '../../images/characters/dk_default.png';
-import DocIcon from '../../images/characters/doc_default.png';
-import FalcoIcon from '../../images/characters/falco_default.png';
-import FalconIcon from '../../images/characters/falcon_default.png';
-import FoxIcon from '../../images/characters/fox_default.png';
-import GanonIcon from '../../images/characters/ganon_default.png';
-import GnwIcon from '../../images/characters/gnw_default.png';
-import IcsIcon from '../../images/characters/ics_default.png';
-import KirbyIcon from '../../images/characters/kirby_default.png';
-import LinkIcon from '../../images/characters/link_default.png';
-import LuigiIcon from '../../images/characters/luigi_default.png';
-import MarioIcon from '../../images/characters/mario_default.png';
-import MarthIcon from '../../images/characters/marth_default.png';
-import MewtwoIcon from '../../images/characters/mewtwo_default.png';
-import NessIcon from '../../images/characters/ness_default.png';
-import PeachIcon from '../../images/characters/peach_default.png';
-import PichuIcon from '../../images/characters/pichu_default.png';
-import PikachuIcon from '../../images/characters/pikachu_default.png';
-import PuffIcon from '../../images/characters/puff_default.png';
-import RoyIcon from '../../images/characters/roy_default.png';
-import SamusIcon from '../../images/characters/samus_default.png';
-import SheikIcon from '../../images/characters/sheik_default.png';
-import YounglinkIcon from '../../images/characters/yl_default.png';
-import YoshiIcon from '../../images/characters/yoshi_default.png';
-import ZeldaIcon from '../../images/characters/zelda_default.png';
+import BowserIcon from '../../images/characters/Bowser.webp';
+import CaptainIcon from '../../images/characters/Captain-Falcon.webp';
+import CharizardIcon from '../../images/characters/Charizard.webp';
+import DededeIcon from '../../images/characters/Dedede.webp';
+import DiddyIcon from '../../images/characters/Diddy-Kong.webp';
+import DkIcon from '../../images/characters/Donkey-Kong.webp';
+import FalcoIcon from '../../images/characters/Falco.webp';
+import FoxIcon from '../../images/characters/Fox.webp';
+import GanonIcon from '../../images/characters/Ganondorf.webp';
+import IcsIcon from '../../images/characters/Ice-Climbers.webp';
+import IkeIcon from '../../images/characters/Ike.webp';
+import IvysaurIcon from '../../images/characters/Ivysaur.webp';
+import KirbyIcon from '../../images/characters/Kirby.webp';
+import KnucklesIcon from '../../images/characters/Knuckles.webp';
+import LinkIcon from '../../images/characters/Link.webp';
+import LucarioIcon from '../../images/characters/Lucario.webp';
+import LucasIcon from '../../images/characters/Lucas.webp';
+import LuigiIcon from '../../images/characters/Luigi.webp';
+import MarioIcon from '../../images/characters/Mario.webp';
+import MarthIcon from '../../images/characters/Marth.webp';
+import MetaKnightIcon from '../../images/characters/Meta-Knight.webp';
+import MewtwoIcon from '../../images/characters/Mewtwo.webp';
+import MrGIcon from '../../images/characters/Mr-Game-&-Watch.webp';
+import NessIcon from '../../images/characters/Ness.webp';
+import OlimarIcon from '../../images/characters/Olimar.webp';
+import PeachIcon from '../../images/characters/Peach.webp';
+import PikachuIcon from '../../images/characters/Pikachu.webp';
+import PuffIcon from '../../images/characters/Jigglypuff.webp';
+import PitIcon from '../../images/characters/Pit.webp';
+import ROBIcon from '../../images/characters/ROB.webp';
+import RoyIcon from '../../images/characters/Roy.webp';
+import SamusIcon from '../../images/characters/Samus.webp';
+import SheikIcon from '../../images/characters/Sheik.webp';
+import SnakeIcon from '../../images/characters/Snake.webp';
+import SonicIcon from '../../images/characters/Sonic.webp';
+import SquirtleIcon from '../../images/characters/Squirtle.webp';
+import ToonlinkIcon from '../../images/characters/Toon-Link.webp';
+import WarioIcon from '../../images/characters/Wario.webp';
+import WolfIcon from '../../images/characters/Wolf.webp';
+import YoshiIcon from '../../images/characters/Yoshi.webp';
+import ZeldaIcon from '../../images/characters/Zelda.webp';
+import ZSSIcon from '../../images/characters/Zero-Suit-Samus.webp';
 import UnknownIcon from '../../images/characters/unknown.png';
 
 import { Tooltip } from 'react-tooltip';
 
 const characterNameToIcon = new Map([
   ['BOWSER', BowserIcon],
-  ['CAPTAIN_FALCON', FalconIcon],
+  ['CAPTAIN_FALCON', CaptainIcon],
+  ['CHARIZARD', CharizardIcon],
+  ['DEDEDE', DededeIcon],
+  ['DIDDY_KONG', DiddyIcon],
   ['DONKEY_KONG', DkIcon],
-  ['DR_MARIO', DocIcon],
   ['FALCO', FalcoIcon],
   ['FOX', FoxIcon],
-  ['GAME_AND_WATCH', GnwIcon],
+  ['GAME_AND_WATCH', MrGIcon],
   ['GANONDORF', GanonIcon],
   ['ICE_CLIMBERS', IcsIcon],
+  ['IKE', IkeIcon],
+  ['IVYSAUR', IvysaurIcon],
   ['KIRBY', KirbyIcon],
+  ['KNUCKLES', KnucklesIcon],
   ['LINK', LinkIcon],
+  ['LUCARIO', LucarioIcon],
+  ['LUCAS', LucasIcon],
   ['LUIGI', LuigiIcon],
   ['MARIO', MarioIcon],
   ['MARTH', MarthIcon],
+  ['META_KNIGHT', MetaKnightIcon],
   ['MEWTWO', MewtwoIcon],
   ['NESS', NessIcon],
+  ['OLIMAR', OlimarIcon],
   ['PEACH', PeachIcon],
-  ['PICHU', PichuIcon],
   ['PIKACHU', PikachuIcon],
   ['JIGGLYPUFF', PuffIcon],
+  ['PIT', PitIcon],
+  ['ROB', ROBIcon],
   ['ROY', RoyIcon],
   ['SAMUS', SamusIcon],
   ['SHEIK', SheikIcon],
+  ['SNAKE', SnakeIcon],
+  ['SONIC', SonicIcon],
+  ['SQUIRTLE', SquirtleIcon],
   ['YOSHI', YoshiIcon],
-  ['YOUNG_LINK', YounglinkIcon],
-  ['ZELDA', ZeldaIcon]
+  ['YOUNG_LINK', ToonlinkIcon],
+  ['WARIO', WarioIcon],
+  ['WOLF', WolfIcon],
+  ['ZELDA', ZeldaIcon],
+  ['ZERO_SUIT_SAMUS', ZSSIcon]
 ]);
 const characters = [...characterNameToIcon.keys()];
 
