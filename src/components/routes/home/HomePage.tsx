@@ -89,8 +89,8 @@ export default function HomePage() {
         </div>
         {player1Name && player2Name && resultPanel()}
       </div>
-      <div className="mt-32 w-64 flex flex-col items-center justify-center">
-        <div className="text-gray-300">Built by blorppppp</div>
+      <div className="mt-32 w-90 flex flex-col items-center justify-center">
+        <div className="text-gray-300">Built by blorppppp, ported to P+ by shinji icarly</div>
         <span><a href="https://www.buymeacoffee.com/blorppppp" target="_blank" rel="noreferrer"
            className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
           Buy me a coffee

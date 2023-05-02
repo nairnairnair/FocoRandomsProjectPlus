@@ -12,7 +12,6 @@
     "target": "es5",
     "sourceMap": true,
     "noEmitOnError": true,
-    "types": ["node"],
     "typeRoots": ["./node_modules/@types", "./types"],
     "baseUrl": ".",
     "resolveJsonModule": true,

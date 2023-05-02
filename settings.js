@@ -1,6 +1,6 @@
 module.exports = {
   // Base application title used in document.title
-  title: 'Foco Randoms',
+  title: 'Foco Randoms: P+ Edition',
 
   // use cname option to add CNAME file to webpack build
   // CNAME file allows to use custom domain names with gh-pages, example:
