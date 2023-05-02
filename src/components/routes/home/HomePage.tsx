@@ -74,6 +74,9 @@ export default function HomePage() {
       <h1 className="title uppercase text-5xl text-center text-white mb-8">
         {settings.title}
       </h1>
+      <h2 className="title uppercase text-2xl text-center text-white mb-8">
+        1 STOCK, 2 MINUTE TIMER, ALL STAGES ON RANDOM
+      </h2>
       <div className="p-4 text-gray-300 flex flex-col">
         <div className="flex items-center justify-center m-4">
           <button className="title text-2xl bg-teal-500 hover:bg-teal-400 text-white py-4 px-8 border-b-4 border-teal-700 hover:border-teal-500 rounded" onClick={shuffle}>
@@ -93,7 +96,7 @@ export default function HomePage() {
         <div className="text-gray-300">Built by blorppppp, ported to P+ by shinji icarly</div>
         <span><a href="https://www.buymeacoffee.com/blorppppp" target="_blank" rel="noreferrer"
            className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
-          Buy me a coffee
+          Buy blorppppp a coffee
       </a>☕</span>
       </div>
     </div>
