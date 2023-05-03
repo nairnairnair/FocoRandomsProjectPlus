@@ -2,6 +2,8 @@
 
 Code powering https://grantismo.github.io/FocoRandoms/#/
 
+Deployed at https://nairnairnair.github.io/FocoRandomsProjectPlus/#/
+
 ## Technologies
 
 - Typescript
@@ -20,4 +22,4 @@ Fork of [reacts-pages-boilerplate](https://github.com/rtivital/react-pages-boile
 - `./cron/run.sh` - manually runs the cron job
 
 ## Support me
-☕ [buy me a coffee](https://www.buymeacoffee.com/blorppppp)
+☕ [buy blorppppp a coffee](https://www.buymeacoffee.com/blorppppp)
